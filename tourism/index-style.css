@@ -1,0 +1,275 @@
+ body{
+	margin: 0px;
+	box-sizing: border-box;
+}
+  .navtop{
+	background-color: #333333;
+    padding: 10px
+} 
+    
+    .navtop .container .col-sm-12 .row .col-sm-6{padding: 10px;}
+    .navtop .container .col-sm-12 .row img{
+        width: 25px;
+    }
+    .navtop .container .col-sm-12 .row a{
+        text-decoration: none;
+        font-size: 14px;
+        color: lavender;;
+    }
+    .navtop .container .col-sm-12 .row a:hover{color: #ff9966}
+    .rainbow{
+	height: 5px;
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0da2c+1,db6129+19,2add2a+36,207cca+52,efce26+68,f46f27+83,cc7eea+100 */
+background: rgb(224,218,44); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(224,218,44,1) 1%, rgba(219,97,41,1) 19%, rgba(42,221,42,1) 36%, rgba(32,124,202,1) 52%, rgba(239,206,38,1) 68%, rgba(244,111,39,1) 83%, rgba(204,126,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(224,218,44,1) 1%,rgba(219,97,41,1) 19%,rgba(42,221,42,1) 36%,rgba(32,124,202,1) 52%,rgba(239,206,38,1) 68%,rgba(244,111,39,1) 83%,rgba(204,126,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(224,218,44,1) 1%,rgba(219,97,41,1) 19%,rgba(42,221,42,1) 36%,rgba(32,124,202,1) 52%,rgba(239,206,38,1) 68%,rgba(244,111,39,1) 83%,rgba(204,126,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0da2c', endColorstr='#cc7eea',GradientType=1 ); /* IE6-9 */
+}
+    .navbar .nav-item .nav-link:hover{color: orange}
+    
+    .navbar .nav-item .nav-link img{width: 25px;}
+    
+
+/*--start of promotions --*/ 
+    .promotions h1{
+        text-align: center;
+        color: #333366;
+	    text-decoration: underline;
+        padding-top: 30px;
+    }
+    
+    .promotions h3{
+	text-align: center;
+	color: #cccccc;
+    font-weight: 400;
+}
+    .promotions img{
+	border-radius: 5px 5px 0px 0px;
+}
+    .promotions h4{
+    text-align: left;
+	color: white;
+    background-color: #cccccc;
+    padding: 10px;
+    }  
+    .promotions h5{
+    text-align: left;
+	color: #cccccc;
+    padding: 10px;
+    }  
+    .promotions .red{
+    background-color: #ff3300;
+    }  
+    .promotions .orange{
+    background-color: #ff9900;
+    } 
+    .promotions .aqua{
+    background-color: #33cc99;
+    }  
+    .promotions .aquadark{
+    background-color: cadetblue;
+    }  
+    .promotions .blue{
+    background-color: cadetblue;
+    }  
+    .promotions .blue{
+    background-color: cadetblue;
+    }  
+    .promotions .mauve{
+    background-color: plum;
+    } 
+    .promotions .darkmauve{
+    background-color: mediumpurple;
+    } 
+    .promotions .yellow{
+    background-color: yellowgreen;
+    } 
+    .promotions .green{
+    background-color: khaki;
+    } 
+    .promotions .kaki{
+    background-color: tan;
+    } 
+    .promotions .karoo{
+    background-color: khaki;
+    } 
+    .promotions p{
+        text-align: justify;
+        padding: 5px;
+    }
+    .promotions .sections{
+
+        padding-top: 30px;
+        box-sizing: border-box;
+    
+    }
+    .promotions .btn{padding: 5px 50px; margin-bottom: 5px;}
+    .promotions .btn-dark{
+        margin-top: 30px;
+    }
+/*--end of promotions --*/  
+/*--start of parralex--*/
+    .parralex{
+	height: 350px;
+	background: url(pics/travel.jpg) no-repeat fixed center;
+	background-size: cover;
+        padding: 70px;
+}
+
+.parralex h1{
+	text-align: center;
+	color: #996633;
+}
+
+.parralex h3{
+	text-align: center;
+	color: #003366;
+}
+    .parralex button{
+        position: relative;
+        left: 45%;
+        background-color: orange
+    }
+
+/*-- end of parralex--*/
+/*--start of destinations --*/
+    .destinations{
+        padding-top: 30px;
+    }
+    .destinations .countries{
+        padding-top: 30px;
+    }
+    .destinations h1{
+        text-align: center;
+        color: #333366;
+	    text-decoration: underline;
+    }
+    .destinations h3{
+	text-align: center;
+	color: #cccccc;
+    font-weight: 400;
+} 
+    .destinations  .asia{
+	background: url(pics/asia.jpg) no-repeat center;
+	background-size: cover;
+	border: solid 1px #333333;
+	border-radius: 5px;
+    height: 400px;
+    margin-left: 60px;
+        margin-bottom: 15px;
+}
+    .destinations  .europe{
+	background: url(pics/europe.jpg) no-repeat center;
+	background-size: cover;
+	border: solid 1px #333333;
+	border-radius: 5px;
+    height: 400px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+    .destinations  .oceania{
+	background: url(pics/oceania.jpg) no-repeat center;
+	background-size: cover;
+	border: solid 1px #333333;
+	border-radius: 5px;
+    height: 400px;
+    margin-left: 60px;
+}
+    .destinations h5{
+    background-color: rgba(25, 125, 255, .2);
+        margin-top: 15px;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+    }
+/*--end of destinations --*/
+    
+
+    
+/*-- start of contact us --*/
+.contact-us{
+    background-color: #282a2e;
+    color: white;
+    padding: 25px;
+}
+.contact-us .container .row .col-12 h1{
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+}
+    .contact-us .container .row .col-md-6{padding: 30px}
+.contact-us .container .row .col-md-6 .row .col-12 h2{
+    width: 80%;
+    
+    padding: 10px;
+    border-bottom: 2px solid #424242;
+    font-size: 20px;
+    font-weight: 100;
+}
+.contact-us .container .row .col-md-6 .row .col-12 input[type="text"], input[type="email"]{
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    width: 80%;
+    font-size: 15px;
+    background-color: #222327;
+    border: solid 2px #222327;
+    text-indent: 20px;
+}
+.contact-us .container .row .col-md-6 .row .col-12 textarea{
+    color: white;
+    width: 80%;
+    padding: 25px;
+    font-size: 15px;
+    background-color: #222327;
+    border: solid 2px #222327;
+    margin-top: 10px;
+    color: gray;
+    font-family: Arial;
+}
+.contact-us .container .row .col-md-6 .row .col-12 input[type="button"],button{
+   padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: orange;
+    border: solid 2px orange;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.contact-us .container .row .col-md-6 .row .col-12 button{margin-top: 15px;border-radius: 5px;}
+.contact-us .container .row .col-md-6 .row .col-12 p{
+    color: #cccc;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.contact-us .container .social-networks .col-12 h1{
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 100;
+    font-size: 30px;
+ }
+    .contact-us .container .social-networks .channels{padding-bottom: 10px;}
+.contact-us .container .social-networks .col-12 .row .col-3 a img{
+    background-color: lightseagreen;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+ .contact-us .container .social-networks .col-12 .row .col-3 a img:hover{
+    background-color: orange;
+    border-radius: 100px;
+}
+/*-- end of contact us --*/
+
+/*-- start of copyrights --*/
+.copyrights{
+    padding: 20px;
+    background-color: #222327;
+    color: white;
+}
+.copyrights .container .row .col-md-3 .logo{
+    color: white;
+    font-size: 20px;
+}
+/*-- end of copyrights --*/

@@ -1,0 +1,329 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    margin:0;
+    background-color:rgba(128,128,128,0.2);
+}
+                                                                         /* Navigation bar styling*/
+                                                        /*----------------------------------------------------------------*/
+   /*------------------------
+   .back{
+    background-color:black;
+
+   } ---------------------------*/
+.navbar{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,1);
+
+    }
+
+.navbar img{
+    width: 110px;
+    height:70px;
+    float: left;
+    margin-left:1%;
+    }
+    
+    .navbar ul{
+      width:100%;
+    }
+.navbar ul li{
+ width:300px;
+float: left;
+list-style: none;
+
+}
+
+.navbar ul li a button{
+    width:100%;
+    height:80px;
+    float: left;
+    color: #C5C5C5;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgba(0,0,0,1);
+    border: black 1px solid;
+    cursor: pointer;
+    list-style: none;
+
+    }
+.navbar a button:hover{
+    color:#000000;
+    background-color:#ffb32c;
+    }
+.navbar a button:active{
+    background-color: gray;
+    color:black;
+}
+    
+    #page_active{
+        background-color:#ffb32c;
+        color:black;
+    }
+                                                                                /* Navigation bar styling*/
+                                                        /*----------------------------------------------------------------*/
+                                                        
+         
+                                                                                     /* Header styling*/
+                                                        /*----------------------------------------------------------------*/                                               
+.header{
+        width:100%;
+        height:820px;
+        background-image: url(Images/cov_1.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+       }
+.headerServ{
+        width:100%;
+        height:820px;
+        background-image: url(Images/covServ.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+       }
+       .headerAbout{
+        width:100%;
+        height:820px;
+        background-image: url(Images/covAbout.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+       }
+        .headerCont{
+        width:100%;
+        height:820px;
+        background-image: url(Images/covCont.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+       }
+                                                                                /* Header styling*/
+                                                        /*----------------------------------------------------------------*/
+                                                        
+                                                        
+                                                        
+                                                        
+                                                                                /* body styling*/
+                                                        /*----------------------------------------------------------------*/
+ 
+.bodyH{
+    width:100%;
+    height:100%;
+    background-color:rgba(128,128,128,0.2);
+
+    padding-bottom:100px;
+    padding-top:620px;
+    margin-top:-600px;
+    
+}
+
+.bodyA{
+    width:100%;
+    height:100%;
+    background-color:rgba(128,128,128,0.2);
+    margin-bottom:-30px;
+    padding-bottom:100px;
+    padding-top:620px;
+    margin-top:-600px;
+    
+}
+
+.bodyS{
+    width:100%;
+    height:100%;
+    background-color:rgba(128,128,128,0.2);
+    margin-bottom:-30px;
+    padding-bottom:100px;
+    padding-top:620px;
+    margin-top:-600px;
+    
+}
+
+.bodyC{
+    width:100%;
+    height:100%;
+    background-color:rgba(128,128,128,0.2);
+    margin-top:0px;
+    margin-bottom:-30px;
+    padding-bottom:100px;
+    padding-top:420px;
+    margin-top:-600px;
+    
+     
+}
+
+.vision{
+    color:white;
+    }                                                      
+.vision h3{
+    width:100%;
+    height:100%;
+    background-color:black;
+    padding-top:40px;
+    font-size: 25px;
+    color: #ffb32c;
+}
+
+.vision p{
+    height:100%;
+    background-color:black;
+    width:50%;
+    font-size: 20px;
+    
+}
+
+.vision img{
+    width:50%;
+    border:solid 2px #ffb32c ;
+    
+}
+
+
+.mision{
+    width:100%;
+    background-color:#000000;
+    color:white;
+    margin-top:235px;
+      }
+      
+.mision h3{
+    padding-top:10px;
+    font-size: 30px;
+    color: #ffb32c;
+
+
+}
+
+.mision p{
+    width:70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mision img{
+    width:100%;
+}
+                                                                                /* body styling*/
+                                                        /*----------------------------------------------------------------*/
+.footer{
+    width:100%;
+    height:100px;
+    background-color:#ffb32c;
+    margin-bottom:0;
+    }
+    
+.footer h3{
+    color:#000000;
+    font-family: sans-serif;
+    padding-top:50px;
+    font-size: 15px;
+    
+}
+
+.Serv{
+    width:100%;
+    height:100%;
+    font-size: 30px;
+    color:white;
+    background: url(Images/lo6.jpg) fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 30px;
+}
+
+.Serv h2{
+    font-size:25px;
+    text-align: center;
+    margin-left: 20px;
+    color:gray;
+    
+}
+
+.bodyS h3{
+padding-top:30px;
+padding-bottom: 50px;
+font-size: 30px;
+}
+.Sec p{
+    width:60%;
+
+    font-size: 20px;
+}
+.ServP{
+    width:100%;
+    margin-top: 100px;
+    height:100%;
+    position: relative;
+    
+}
+.ServP img{
+    width:250px;
+}
+
+.ServP h3{
+    font-size: 20px;
+}
+
+.aout {
+    width:280px;
+    position: relative;
+    bottom: 1080px;
+    right:40%;
+}
+
+.Dry{
+    width:280px;
+    position: relative;
+    bottom: 725px;
+    right:15%;
+}
+
+.indust{
+    width:280px;
+    position: relative;
+    bottom: 362px;
+    left: 40%;
+}
+
+.tech{
+    width:280px;
+    position: relative;
+    left:12%;
+}
+
+.AboutB h3{
+  font-size: 30px;
+}
+
+.AboutB img{
+    width: 80%;
+    
+}
+
+.AboutB p{
+    width:90%;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+   
+}
+
+.AboutA{
+    width: 100%;
+    padding-bottom:10%; 
+    background-color:black;
+    margin-top:150px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.AboutA h3{
+    color: white;
+    font-size: 30px;
+}
+
+.AboutA p{
+    width:80%;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+    color: white;
+    
+}

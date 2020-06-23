@@ -1,0 +1,134 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(AAJannatLT-.woff);
+}
+
+body{
+    font-family: myFirstFont;
+    background:#4682B4;
+    text-align: right;
+
+}
+
+.active1{
+ background-color:#E52749;
+ color:white;
+}
+
+.container{
+    height:100%;
+    background-color:#F7F7F7;
+    margin-top:-30px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px; 
+    background-color:#E52749;
+    color: white;
+    text-align: center;
+    }
+    
+    .footer p{
+        padding-top:30px;
+    }
+    
+    .footer a{
+
+         color:white;
+    }
+    
+    .cont1{
+        width:200px;
+        height:500px;
+        margin-top: 50px;
+        float:right;
+        border:solid gray 2px;
+    }
+    
+    .Header img{
+        margin-top:10px;
+        width:100%;
+    }
+    
+    .info{
+        height:500px;
+        background-color:#EAEAEA;
+        border-top:solid 2px gray;
+        border-bottom:solid 2px gray;
+        margin-top:10px;
+    
+    }
+    
+    .info img{
+     width:100%;
+     height:100%;
+     float:left;
+     padding-right:10px;
+     z-index: 1000;
+    }
+    
+    .info h1{
+     text-align: right;
+     color:black;
+     font-size:39px;
+     font-weight: bold;
+    }
+    
+    .info p{
+     text-align: right;
+     color:black;
+     font-size: 15px;
+     font-weight: bold;
+    }
+    
+    .col-sm-12 h1{
+     
+     text-decoration: none;
+     text-align: center;
+     font-weight: bold;
+    }
+
+
+
+.col-md-3 a img{
+ position: relative;
+
+ border-radius: 100%;
+}
+
+.col-md-3 h1{
+  position: relative;
+
+}
+
+.grayscale {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+.grayscale:hover {
+ -webkit-filter: grayscale(0%);filter: grayscale(0%);
+}
+
+
+.pagination li a{
+  color:#E52749;
+}
+
+.pagination .active a{
+ background-color:#E52749;
+ color:white;
+ outline-color: #E52749;
+ border-color: #E52749;
+}
+
+.pagination li a:hover {
+ color:#E52749;
+}
+
+.pagination .active a:hover{
+ background-color:#E52749;
+ color:white;
+ outline-color: #E52749;
+ border-color: #E52749;
+}
